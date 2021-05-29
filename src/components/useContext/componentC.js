@@ -27,7 +27,7 @@ const data = (
 
     return ( 
       <div>
-        {dataEnable ? <div><h1>Fetched Data using useContext</h1>
+        {dataEnable ? <div><h1 style={{background:'white', color:'red'}}>Fetched Data using useContext</h1>
         <div>{data}</div></div> : null}
       </div>
     );
