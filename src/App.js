@@ -6,7 +6,7 @@ import "./App.css";
 import Nav from "./components/Nav/nav";
 import UseReducer from "./components/UseReducer/useReducer";
 import LifeCycle from "./components/LifeCycle/lifeCycle";
-import UseContext from "./components/UseContext/componentA";
+import UseContext from "./components/useContext/componentA";
 
 
 const App = () => {
