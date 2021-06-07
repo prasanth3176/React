@@ -21,6 +21,9 @@ const Nav = () => {
         <NavLink to="/useContext">
           <li style={navStyle}>useContext</li>
         </NavLink>
+        <NavLink to="/useContextWithuseReducer">
+          <li style={navStyle}>useContext With useReducer</li>
+        </NavLink>
       </ul>
     </nav>
   );

@@ -6,7 +6,8 @@ import "./App.css";
 import Nav from "./components/Nav/nav";
 import UseReducer from "./components/UseReducer/useReducer";
 import LifeCycle from "./components/LifeCycle/lifeCycle";
-import UseContext from "./components/useContext/componentA";
+import UseContext from "./components/UseContext/componentA";
+import UseContextWithUseReducer from "./components/UseContextUseReducer/index";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route exact path='/useReducer' component={UseReducer} />
       <Route exact path='/lifeCycle' component={LifeCycle} />
       <Route exact path='/useContext' component={UseContext} />
+      <Route exact path='/useContextWithuseReducer' component={UseContextWithUseReducer} />
       </Switch>
     </div>
     </Router>
