@@ -2,18 +2,43 @@
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(97, 84, 85, 0.452);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 20px;
+}
+
+.header-logo{
+    /*border: 0.0002vh solid #ffffff !important;*/
+    margin-right: 20px;
+    display: inline-block;
+    width: 46px; 
+    height: 46px;
 }
